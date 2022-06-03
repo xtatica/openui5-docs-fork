@@ -1,22 +1,14 @@
 <!-- loiob530db37f4db4164b5e68f20bff93a9a -->
 
-| loio |
-| -----|
-| b530db37f4db4164b5e68f20bff93a9a |
-
-<div id="loio">
-
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/b530db37f4db4164b5e68f20bff93a9a) | [demo kit latest release](https://sdk.openui5.org/topic/b530db37f4db4164b5e68f20bff93a9a)</div>
-
-## What's New in OpenUI5 1.102
+# What's New in OpenUI5 1.102
 
 With this release OpenUI5 is upgraded from version 1.101 to 1.102.
 
-***
+
 
 <a name="loiob530db37f4db4164b5e68f20bff93a9a__section_jhg_nsb_ntb"/>
 
-### Preview and Announcements
+## Preview and Announcements
 
 The following information concerns important upcoming changes. UI changes may have an impact on the user experience and may require test cases to be adapted.
 
@@ -72,11 +64,11 @@ n/a
 </tr>
 </table>
 
-***
+
 
 <a name="loiob530db37f4db4164b5e68f20bff93a9a__section_yxw_pxt_zcb"/>
 
-### New Features
+## New Features
 
 
 <table>
@@ -87,7 +79,7 @@ n/a
 
 The accessibility guide is a newly developed application about web accessibility in OpenUI5. As an addition to the existing accessibility documentation in the Demo Kit, the accessibility guide provides practical, code-oriented guidance and samples.
 
-For more information, see [Accessibility Guide](https://sdk.openui5.org/test-resources/sap/m/demokit/accessibilityGuide/webapp/index.html).
+For more information, see [Accessibility Guide](https://ui5.sap.com/test-resources/sap/m/demokit/accessibilityGuide/webapp/index.html).
 
 
 
@@ -104,21 +96,21 @@ The following OpenUI5 functionality supports IANA time zones:
 
 -   Configuration of the default time zone via:
 
-    -   The `timezone` configuration option \(see [`sap.ui.core.Configuration`](https://sdk.openui5.org/api/sap.ui.core.Configuration)\).
+    -   The `timezone` configuration option \(see [`sap.ui.core.Configuration`](https://ui5.sap.com/#/api/sap.ui.core.Configuration)\).
 
-    -   The API method [`sap.ui.core.Configuration.setTimezone`](https://sdk.openui5.org/api/sap.ui.core.Configuration/methods/setTimezone)
+    -   The API method [`sap.ui.core.Configuration.setTimezone`](https://ui5.sap.com/#/api/sap.ui.core.Configuration/methods/setTimezone)
 
--   The time zone-specific `DateFormat` [`DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat.DateTimeWithTimezone), which can be retrieved via [`sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://sdk.openui5.org/api/api/sap.ui.core.format.DateFormat%23methods/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance). It allows the formatting/parsing of timestamps while visualizing the date and/or the time and/or the time zone. For more information, see [`sap.ui.core.format.DateFormat`](https://sdk.openui5.org/api/sap.ui.core.format.DateFormat) as well as [Date Format](Date_Format_91f2eba.md).
--   The new [`sap.ui.model.odata.type.DateTimeWithTimezone`](https://sdk.openui5.org/api/sap.ui.model.odata.type.DateTimeWithTimezone) composite type where the first part is the time stamp and the second part is the IANA time zone.
+-   The time zone-specific `DateFormat` [`DateTimeWithTimezone`](https://ui5.sap.com/#/api/sap.ui.core.format.DateFormat.DateTimeWithTimezone), which can be retrieved via [`sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance`](https://ui5.sap.com/#/api/api/sap.ui.core.format.DateFormat%23methods/sap.ui.core.format.DateFormat.getDateTimeWithTimezoneInstance). It allows the formatting/parsing of timestamps while visualizing the date and/or the time and/or the time zone. For more information, see [`sap.ui.core.format.DateFormat`](https://ui5.sap.com/#/api/sap.ui.core.format.DateFormat) as well as [Date Format](date-format-91f2eba.md).
+-   The new [`sap.ui.model.odata.type.DateTimeWithTimezone`](https://ui5.sap.com/#/api/sap.ui.model.odata.type.DateTimeWithTimezone) composite type where the first part is the time stamp and the second part is the IANA time zone.
 -   The OData V4 model supports specifying the time zone via the `com.sap.vocabularies.common.v1.Timezone` annotation. For more information, see:
 
-    -   [Meta Model for OData V4](Meta_Model_for_OData_V4_7f29fb3.md)
+    -   [Meta Model for OData V4](meta-model-for-odata-v4-7f29fb3.md)
 
-    -   [AnnotationHelper](Meta_Model_for_OData_V4_7f29fb3.md#loio7f29fb3ce5964d8090038a9d3cdf5060__section_AnnoHelp)
+    -   [AnnotationHelper](meta-model-for-odata-v4-7f29fb3.md#loio7f29fb3ce5964d8090038a9d3cdf5060__section_AnnoHelp)
 
     In OData V2, this is handled by the enhancements mentioned for `sap.ui.comp.smartfield.SmartField` and `sap.ui.comp.smarttable.SmartTable` below.
 
--   [`sap.m.DateTimePicker`](https://sdk.openui5.org/api/sap.m.DateTimePicker) visualizes the time zone based on the type information. In addition, it has its own properties for visualizing the time zone.
+-   [`sap.m.DateTimePicker`](https://ui5.sap.com/#/api/sap.m.DateTimePicker) visualizes the time zone based on the type information. In addition, it has its own properties for visualizing the time zone.
 
 
 
@@ -126,11 +118,11 @@ The following OpenUI5 functionality supports IANA time zones:
 </tr>
 </table>
 
-***
+
 
 <a name="loiob530db37f4db4164b5e68f20bff93a9a__section_qwl_pb5_zcb"/>
 
-### Improved Features
+## Improved Features
 
 
 <table>
@@ -154,7 +146,7 @@ Aggregations of the XML view itself and of the controls inside the view are now 
 
 If a container control has one of its aggregations marked as the default aggregation, you can now add children directly into that control. For example, if `sap.ui.core.mvc.XMLView`'s `content` aggregation is marked as default, you can define content for the aggregation directly in the XML view, without explicitly adding a `content` tag. Of course, when a container control does not have a default aggregation defined, or when adding a child control into another aggregation, you still need to use an aggregation tag, for example `dependents`.
 
-In order to align the usage of XML views and controls even further, aggregations such as `content` and `dependents` are now also bindable. This is only supported when following the best practice not to use native HTML inside XML views. For more information, see [Aggregation Handling in XML Views](Aggregation_Handling_in_XML_Views_19eabf5.md).
+In order to align the usage of XML views and controls even further, aggregations such as `content` and `dependents` are now also bindable. This is only supported when following the best practice not to use native HTML inside XML views. For more information, see [Aggregation Handling in XML Views](aggregation-handling-in-xml-views-19eabf5.md).
 
 
 
@@ -165,7 +157,7 @@ In order to align the usage of XML views and controls even further, aggregations
 
 **OpenUI5 OData V2 Model**
 
-The `sap.ui.model.odata.OperationMode.Auto` operation mode is deprecated. If the amount of data is small enough to be loaded completely onto the client, use `sap.ui.model.odata.OperationMode.Client` instead. Otherwise, use `sap.ui.model.odata.OperationMode.Server` or `sap.ui.model.odata.OperationMode.Default`.For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.OperationMode%23overview).
+The `sap.ui.model.odata.OperationMode.Auto` operation mode is deprecated. If the amount of data is small enough to be loaded completely onto the client, use `sap.ui.model.odata.OperationMode.Client` instead. Otherwise, use `sap.ui.model.odata.OperationMode.Server` or `sap.ui.model.odata.OperationMode.Default`.For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.model.odata.OperationMode%23overview).
 
 
 
@@ -178,7 +170,7 @@ The `sap.ui.model.odata.OperationMode.Auto` operation mode is deprecated. If the
 
 The new version of the OpenUI5 OData V4 model introduces the following features:
 
--   The creation of inactive rows introduced with OpenUI5 1.97 is no longer experimental. For more information, see [Creating an Entity](Creating_an_Entity_c9723f8.md)and the [API Reference](https://sdk.openui5.org/api/sap.ui.model.odata.v4.ODataListBinding%23methods/create).
+-   The creation of inactive rows introduced with OpenUI5 1.97 is no longer experimental. For more information, see [Creating an Entity](creating-an-entity-c9723f8.md)and the [API Reference](https://ui5.sap.com/#/api/sap.ui.model.odata.v4.ODataListBinding%23methods/create).
 -   If metadata is already available, key predicates of message targets received from the back end are now normalized to match the key predicates calculated on the client.
 
 
@@ -187,11 +179,11 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 </tr>
 </table>
 
-***
+
 
 <a name="loiob530db37f4db4164b5e68f20bff93a9a__section_rqn_wd5_zcb"/>
 
-### Improved Controls
+## Improved Controls
 
 
 <table>
@@ -202,7 +194,7 @@ The new version of the OpenUI5 OData V4 model introduces the following features:
 
 We have added `afterValueHelpOpen` and `afterValueHelpClose` events, fired when value help dialog opens and closes.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.m.DatePicker). 
+ For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.m.DatePicker). 
 
 
 
@@ -222,7 +214,7 @@ We have applied the following visual changes, which improve the prioritization o
 -   The action button and the close button \(if present\) are moved to a single overflow in small \(S\) control size.
 
 
-For more information, see the [NotificationListItem](https://sdk.openui5.org/entity/sap.m.NotificationListItem/sample/sap.m.sample.NotificationListItem) and the [NotificationListGroup](https://sdk.openui5.org/entity/sap.m.NotificationListGroup/sample/sap.m.sample.NotificationListGroup) samples.
+For more information, see the [NotificationListItem](https://ui5.sap.com/#/entity/sap.m.NotificationListItem/sample/sap.m.sample.NotificationListItem) and the [NotificationListGroup](https://ui5.sap.com/#/entity/sap.m.NotificationListGroup/sample/sap.m.sample.NotificationListGroup) samples.
 
 
 
@@ -241,12 +233,12 @@ In particular, the following changes have been applied:
 
 -   We have adapted the tooltips of the *Delete* buttons for removing entries on the tabs.
 
-    ![](images/loio53d93b35ecc24e6cb1d69ab6ca387760_LowRes.png)
+    ![](images/Sort_tab_for_WN_View_Settings_53d93b3.png)
 
 -   For a more simplified search, especially in a long selection list, users can now enter a column name.
 
 
-For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup) for `sap.m.p13n.Popup` and the [Sample](https://sdk.openui5.org/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable.mtableCustom) for `SmartTable`. 
+For more information, see the [Sample](https://ui5.sap.com/#/entity/sap.m.p13n.Popup/sample/sap.m.sample.p13n.Popup) for `sap.m.p13n.Popup` and the [Sample](https://ui5.sap.com/#/entity/sap.ui.comp.smarttable.SmartTable/sample/sap.ui.comp.sample.smarttable.mtableCustom) for `SmartTable`. 
 
 
 
@@ -259,7 +251,7 @@ For more information, see the [Sample](https://sdk.openui5.org/entity/sap.m.p13n
 
 We have implemented `beforeDialogOpen` and `beforeDialogClose` events, fired when the user opens and closes the file select dialog.
 
- For more information, see the [API Reference](https://sdk.openui5.org/api/sap.ui.unified.FileUploader). 
+ For more information, see the [API Reference](https://ui5.sap.com/#/api/sap.ui.unified.FileUploader). 
 
 
 
@@ -267,18 +259,18 @@ We have implemented `beforeDialogOpen` and `beforeDialogClose` events, fired whe
 </tr>
 </table>
 
-***
+
 
 <a name="loiob530db37f4db4164b5e68f20bff93a9a__section_cps_cg5_zcb"/>
 
-### Deprecations
+## Deprecations
 
 
 <table>
 <tr>
 <td valign="top">
 
-There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://sdk.openui5.org/api/deprecated). 
+There are currently no major deprecations. For a complete list of all deprecations, see [Deprecated APIs](https://ui5.sap.com/#/api/deprecated). 
 
 
 
