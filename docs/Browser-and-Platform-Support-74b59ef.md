@@ -1,14 +1,6 @@
 <!-- loio74b59efa0eef48988d3b716bd0ecc933 -->
 
-| loio |
-| -----|
-| 74b59efa0eef48988d3b716bd0ecc933 |
-
-<div id="loio">
-
-view on: [demo kit nightly build](https://openui5nightly.hana.ondemand.com/topic/74b59efa0eef48988d3b716bd0ecc933) | [demo kit latest release](https://sdk.openui5.org/topic/74b59efa0eef48988d3b716bd0ecc933)</div>
-
-## Browser and Platform Support
+# Browser and Platform Support
 
 Browser and platform support for the OpenUI5 libraries on iOS, Android, macOS, and Windows platforms.
 
@@ -19,17 +11,17 @@ As OpenUI5 is based on CSS3, HTML5, and the ECMAScript 5 \(ES5\) JavaScript API,
 
 Depending on the platform your OpenUI5 apps run on, different browsers in different versions are supported. If you know which platform and which browsers are used by your users, you can decide on which libraries to use for your app.
 
-***
 
-### Overview of Supported Browsers, Platforms, and Reference Devices
 
-The following tables give a general overview of the browsers, platforms, and reference devices supported by the main OpenUI5 libraries. There are certain known device-browser combinations that lead to visual degradations. For more information, see [Visual Degradations](Visual_Degradations_f08f296.md).
+## Overview of Supported Browsers, Platforms, and Reference Devices
 
-***
+The following tables give a general overview of the browsers, platforms, and reference devices supported by the main OpenUI5 libraries. There are certain known device-browser combinations that lead to visual degradations. For more information, see [Visual Degradations](visual-degradations-f08f296.md).
+
+
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__section_bgw_kns_hnb"/>
 
-### Browser and Platform Support Matrix
+## Browser and Platform Support Matrix
 
 
 <table>
@@ -452,20 +444,20 @@ Latest version
  5\) Not supported for `sap.ui.commons` and `sap.ui.ux3`.  
  
 
-***
+
 
 <a name="loio74b59efa0eef48988d3b716bd0ecc933__MS_IE"/>
 
-### OpenUI5 Support Status for Microsoft Internet Explorer 11
+## OpenUI5 Support Status for Microsoft Internet Explorer 11
 
 Support for Microsoft Internet Explorer 11 \(IE11\) ended after OpenUI5 1.87. The last long-term maintenance version of OpenUI5 that supports IE11 is OpenUI5 1.84. Versions up to and including OpenUI5 1.87 will continue to support IE11 as long as they are in maintenance \(see [https://sdk.openui5.org/versionoverview.html](https://sdk.openui5.org/versionoverview.html)\).
 
 In case you have legacy applications and you still need IE11 with an OpenUI5 version that no longer supports it, we recommend that you either use a dual browser strategy \(for example, your users use another supported browser in addition to IE11\) or you switch to Microsoft Edge \(Chromium\), which has an integrated Internet Explorer runtime mode.
 
--   **[Visual Degradations](Visual_Degradations_f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
+-   **[Visual Degradations](visual-degradations-f08f296.md "Depending on the combination of device and browser, visual degradations may occur in
 		certain libraries.")**  
 Depending on the combination of device and browser, visual degradations may occur in certain libraries.
--   **[Keyboard Shortcuts for OpenUI5 Tools](Keyboard_Shortcuts_for_OpenUI5_Tools_154844c.md "OpenUI5 provides tools for information, diagnostics and testing purposes that
+-   **[Keyboard Shortcuts for OpenUI5 Tools](keyboard-shortcuts-for-openui5-tools-154844c.md "OpenUI5 provides tools for information, diagnostics and testing purposes that
 		are accessible via keyboard shortcuts.")**  
 OpenUI5 provides tools for information, diagnostics and testing purposes that are accessible via keyboard shortcuts.
 
